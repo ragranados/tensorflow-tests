@@ -2,7 +2,7 @@ import tensorflow as tf
 import numpy as np
 import matplotlib.pyplot as mp
 
-def conversion():
+def run():
     # print("Num GPUs Available: ", len(tf.config.list_physical_devices('GPU')))
 
     celsius = np.array([-40, -10, 0, 8, 15, 22, 38], dtype=float)

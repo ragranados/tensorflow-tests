@@ -1,5 +1,7 @@
 import conversion
+import imagenes
 
-conversion.conversion()
+#conversion.run()
+imagenes.run()
 
 
